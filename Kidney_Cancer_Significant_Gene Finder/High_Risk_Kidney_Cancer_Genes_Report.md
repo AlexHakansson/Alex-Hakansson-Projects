@@ -21,7 +21,7 @@ The table was read into a jupyter notebook. In order to get the clinical data (t
 
 ### Filtering:
 
-To get more distinct results, patients who were reported to have passed away but who lived for more than 3 years were removed from the data set as it is unclear whether or not these patients were high or low risk. The mean, standard deviation, coefficient of variance (CV) and number of 0's in each gene column were found. Genes with more than 450 zeroes were removed for having too little data. Genes with CVs less than 1 were removed for having low variance. The Z-Scores and P-Values for the remaining genes was found between the remaining patients who survived and those who did not. P-Values were determined using python's scipy package.
+To get more distinct results, patients who were reported to have passed away but who lived for more than 3 years were removed from the data set as it is unclear whether or not these patients were high or low risk. The mean, standard deviation, coefficient of variance (CV) and number of 0's in each gene column were found. Genes with more than 450 zeroes were removed for having too little data. Genes with CVs less than 1 were removed for having low variance. The Z-Scores and P-Values for the remaining genes were found between the remaining patients who survived and those who did not. P-Values were determined using python's scipy package.
 
 ### Finding Significant Genes:
 
